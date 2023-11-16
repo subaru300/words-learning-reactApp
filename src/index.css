@@ -1,13 +1,37 @@
+@font-face {
+  font-family: 'hurme-sb';
+  src: url('./font/HurmeGeometricSans2-SemiBold.woff2');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'hurme-sb', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #0B082D;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+  margin-top: 30px;
+  width: 1440px;
+  height: 640px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #2E3856;
+  align-items: center;
+  
+}
+

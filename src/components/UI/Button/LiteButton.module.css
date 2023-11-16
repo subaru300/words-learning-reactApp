@@ -1,0 +1,24 @@
+.liteButton {
+   margin: 0 30px;
+   background-color: #888a9e;
+   border: none;
+   width: 120px;
+   height: 40px;
+   color: rgb(232, 232, 232);
+   font-weight: 600;
+   border-radius: 6px;
+   display: inline-block;
+   transition: transform 0.3s ease;
+   text-decoration: none;
+   position: relative;
+}
+
+.liteButton:hover {
+   background-color: #767676;
+   transform: scale(1);
+}
+
+.liteButton:active {
+   background-color: black;
+   transform: scale(0.9);
+}

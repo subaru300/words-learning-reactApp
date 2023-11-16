@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'hurme-reg';
+    src: url('../../font/HurmeGeometricSans2-Regular.woff2');
+  }
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+.topMenu {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+   
+}
+
+.header {
+    color: white;
+    font-size: 35px;
+    
+}
+
+.menu {
+    font-family: 'hurme-reg', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px; 
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-size: 100% 2px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
