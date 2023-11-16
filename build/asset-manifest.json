@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a52b1301.css",
+    "main.js": "/static/js/main.ec339095.js",
+    "static/media/HurmeGeometricSans2-SemiBold.woff2": "/static/media/HurmeGeometricSans2-SemiBold.2c1201cf6899d9628dde.woff2",
+    "static/media/HurmeGeometricSans2-Regular.woff2": "/static/media/HurmeGeometricSans2-Regular.befc69d2867bb7408976.woff2",
+    "index.html": "/index.html",
+    "main.a52b1301.css.map": "/static/css/main.a52b1301.css.map",
+    "main.ec339095.js.map": "/static/js/main.ec339095.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a52b1301.css",
+    "static/js/main.ec339095.js"
+  ]
+}
