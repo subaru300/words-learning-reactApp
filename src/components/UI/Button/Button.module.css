@@ -39,5 +39,13 @@
     transform: scale(0.9);
 }
 
+@media (max-width: 770px) {
+   
+    .blueButton {
+        width: 80px;
+        height: 50px;
+    
+    }
+  }
 
 

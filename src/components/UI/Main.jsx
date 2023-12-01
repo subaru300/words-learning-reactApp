@@ -5,16 +5,17 @@ const Main = props => {
     
     return (
         <>
-        <Button 
-        style={props.style}
-        onClick={props.onClick}
-        buttonText={props.buttonText}
-        />
         <InputWordForm
         type={props.type}
         placeholder={props.placeholder}
         value={props.value}
         onChange={props.onChange}/>
+        <Button 
+        style={props.style}
+        onClick={props.onClick}
+        buttonText={props.buttonText}
+        />
+        
         </>
     )
 }

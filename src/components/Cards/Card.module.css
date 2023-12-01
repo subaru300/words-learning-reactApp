@@ -1,7 +1,7 @@
 .cardsBlock {
 display: flex;
 flex-direction: column;
-margin: auto;
+margin:auto;
 
 }
 
@@ -54,10 +54,68 @@ margin: auto;
   border-radius: 6px;
 }
 
-/* .bottomButtonsContainer {
-  display: flex;
-} */
+@media (max-width: 1540px) {
 
+  .cardContainer{
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+  .card{
+    width: 540px;
+    height: 380px;
+ }
+ .currentImage {
+  width: 200px;
+}
+.front, .back {
+  font-size: 20px;
+
+}
+}
+
+@media (max-width: 1040px) {
+  .cardContainer{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+  .card{
+    width: 480px;
+    height: 320px;
+ }
+ .currentImage {
+  width: 160px;
+}
+.front, .back {
+  font-size: 18px;
+
+}
+
+}
+
+@media (max-width: 770px) {
+
+  .cardContainer{
+  gap: 15px;
+  }
+  .card{
+    border-radius: 10px;
+    width: 320px;
+    height: 500px;
+ }
+
+ .back {
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 10px;
+}
+
+}
 
 
 

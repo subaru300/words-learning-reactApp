@@ -10,12 +10,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background-color: #0B082D;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
 }
 
 code {
@@ -32,6 +34,34 @@ code {
   padding: 10px;
   background-color: #2E3856;
   align-items: center;
-  
 }
+
+@media (max-width: 1540px) {
+  .app{
+  width: 970px;
+  height: 640px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .app{
+  width: 720px;
+  height: 540px;
+  }
+}
+
+@media (max-width: 770px) {
+/* body{
+  background-color: #2E3856;
+} */
+
+  .app{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+    /* background-color: transparent; */
+    }
+
+}
+
 
